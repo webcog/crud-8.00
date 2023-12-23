@@ -5,8 +5,13 @@ from django.http import HttpResponse
 # view build - 
 # url link create - 
 
-def index(request):
-    return HttpResponse("Hello this is My Django Firdt View")
+# html - templates 
+
+# def index(request):
+#     return HttpResponse("Hello this is My Django Firdt View")
+
+def home(request):
+    return render(request,"index.html")
 
 def about(request):
-    return HttpResponse("This is Our About Page")
+    return render(request, 'about.html')
