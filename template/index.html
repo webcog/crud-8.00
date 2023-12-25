@@ -1,38 +1,5 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="{% url 'home' %}">Batch 7.30</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="{% url 'home' %}">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{% url 'about' %}">About</a>
-              </li>
-            
-              
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-
-      <h1 class="p-5 bg-primary text-white text-center">Home</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
-</html>
+{% extends "base.html" %}
+{% block content %}
+     <h1 class="text-center bg-primary p-5 text-white">Home</h1>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae debitis quam voluptatum. Ut sapiente dicta iure necessitatibus facere, veritatis repudiandae dignissimos ipsa cum maxime ad molestias excepturi quae reiciendis ea quidem quo et eos maiores totam hic? Excepturi sapiente accusantium delectus dolore molestias fugiat similique omnis atque ea, perferendis repellat aspernatur, culpa nisi voluptatibus doloribus quisquam earum voluptate ex eaque nihil sint? Deleniti voluptas alias provident doloribus quasi! Quia consequatur obcaecati eaque perferendis animi corporis laborum esse. Delectus sequi laudantium tempore iste autem quasi, reiciendis quos animi, impedit quisquam in atque. Atque libero ipsam deleniti perspiciatis voluptates laboriosam. Nobis illo assumenda voluptas asperiores autem quibusdam, natus dolores deleniti nisi debitis maxime enim excepturi facere. Atque quis hic ipsam distinctio impedit reprehenderit deleniti necessitatibus tempore quibusdam suscipit modi aspernatur vero iure officiis ut praesentium, a accusamus repellat mollitia blanditiis quo maiores perferendis illo. Inventore aliquam saepe aliquid eum deserunt repellendus possimus dolorem, nemo, minus doloribus dolores? Placeat animi saepe vel impedit, corporis quam vitae obcaecati, labore ea, sequi rem possimus consequatur id cumque aliquam inventore quibusdam at eos fugiat illo nihil tenetur quasi? Quaerat quia cupiditate maxime laboriosam suscipit quo illo libero tenetur sunt earum. At harum veniam sed suscipit aliquam quae aliquid. Voluptatum et quos, dolores similique sequi doloremque repellat officiis necessitatibus ratione commodi perferendis sunt ab illo totam mollitia dolorem cumque debitis! Esse eos quidem, obcaecati rem, fugiat magni maxime expedita delectus inventore nostrum omnis dolor possimus ab aperiam reiciendis assumenda officiis suscipit nam nihil dolorem harum, reprehenderit accusamus? Cumque voluptatem iusto dolorum repudiandae fuga alias, consequuntur quasi! Dolor accusamus animi ipsam, optio impedit, libero natus at, provident ut repellat commodi veritatis corporis ipsum possimus placeat. Excepturi ducimus cumque dolore? Placeat pariatur reprehenderit modi voluptatum asperiores totam labore quo aspernatur magnam neque, hic, nihil impedit nemo aliquid molestias fugit nulla odio iusto? Possimus exercitationem non corrupti dolorum iure. Quae corporis, accusantium nemo iste itaque voluptas. Reprehenderit sequi blanditiis repudiandae esse perferendis. Facere quos amet corrupti! Magnam ratione enim ut possimus. Distinctio, nisi non, ut repellendus delectus dolor temporibus atque odio mollitia est, velit voluptas repudiandae cumque autem voluptates maiores dicta dolores totam dolorem? Ipsam eos itaque id quam tempore aut a, eius enim quia dolor iure earum modi, eveniet pariatur natus veniam exercitationem! Nihil, eius! Fugit ratione consequatur aut quos dolorem facilis ipsam doloribus vel laborum incidunt qui in corrupti, at accusamus, consequuntur illo labore ipsum ad. Quidem sit iusto omnis aperiam dolores molestiae suscipit dicta iure ea amet iste rem non libero eos officiis architecto facilis, sint ratione magni harum corrupti voluptatum eum similique eius? Error, at magnam nesciunt a quos sequi dicta tenetur maiores minima ex iusto consectetur distinctio qui perspiciatis quo veritatis laboriosam facilis, recusandae, neque quibusdam doloremque voluptate. Consequuntur expedita commodi laboriosam ab ex atque ea libero perferendis, ullam earum omnis ad perspiciatis odit architecto voluptas eius consequatur officia sequi. Voluptatem culpa corporis nisi sint deserunt quia tenetur ratione alias debitis ullam voluptatum totam ipsam perferendis fuga fugiat rem, numquam minus unde dicta beatae. Ratione?</p>
+{% endblock content %}
