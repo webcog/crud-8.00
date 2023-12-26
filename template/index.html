@@ -1,5 +1,54 @@
 {% extends "base.html" %}
 {% block content %}
      <h1 class="text-center bg-primary p-5 text-white">Home</h1>
-     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae debitis quam voluptatum. Ut sapiente dicta iure necessitatibus facere, veritatis repudiandae dignissimos ipsa cum maxime ad molestias excepturi quae reiciendis ea quidem quo et eos maiores totam hic? Excepturi sapiente accusantium delectus dolore molestias fugiat similique omnis atque ea, perferendis repellat aspernatur, culpa nisi voluptatibus doloribus quisquam earum voluptate ex eaque nihil sint? Deleniti voluptas alias provident doloribus quasi! Quia consequatur obcaecati eaque perferendis animi corporis laborum esse. Delectus sequi laudantium tempore iste autem quasi, reiciendis quos animi, impedit quisquam in atque. Atque libero ipsam deleniti perspiciatis voluptates laboriosam. Nobis illo assumenda voluptas asperiores autem quibusdam, natus dolores deleniti nisi debitis maxime enim excepturi facere. Atque quis hic ipsam distinctio impedit reprehenderit deleniti necessitatibus tempore quibusdam suscipit modi aspernatur vero iure officiis ut praesentium, a accusamus repellat mollitia blanditiis quo maiores perferendis illo. Inventore aliquam saepe aliquid eum deserunt repellendus possimus dolorem, nemo, minus doloribus dolores? Placeat animi saepe vel impedit, corporis quam vitae obcaecati, labore ea, sequi rem possimus consequatur id cumque aliquam inventore quibusdam at eos fugiat illo nihil tenetur quasi? Quaerat quia cupiditate maxime laboriosam suscipit quo illo libero tenetur sunt earum. At harum veniam sed suscipit aliquam quae aliquid. Voluptatum et quos, dolores similique sequi doloremque repellat officiis necessitatibus ratione commodi perferendis sunt ab illo totam mollitia dolorem cumque debitis! Esse eos quidem, obcaecati rem, fugiat magni maxime expedita delectus inventore nostrum omnis dolor possimus ab aperiam reiciendis assumenda officiis suscipit nam nihil dolorem harum, reprehenderit accusamus? Cumque voluptatem iusto dolorum repudiandae fuga alias, consequuntur quasi! Dolor accusamus animi ipsam, optio impedit, libero natus at, provident ut repellat commodi veritatis corporis ipsum possimus placeat. Excepturi ducimus cumque dolore? Placeat pariatur reprehenderit modi voluptatum asperiores totam labore quo aspernatur magnam neque, hic, nihil impedit nemo aliquid molestias fugit nulla odio iusto? Possimus exercitationem non corrupti dolorum iure. Quae corporis, accusantium nemo iste itaque voluptas. Reprehenderit sequi blanditiis repudiandae esse perferendis. Facere quos amet corrupti! Magnam ratione enim ut possimus. Distinctio, nisi non, ut repellendus delectus dolor temporibus atque odio mollitia est, velit voluptas repudiandae cumque autem voluptates maiores dicta dolores totam dolorem? Ipsam eos itaque id quam tempore aut a, eius enim quia dolor iure earum modi, eveniet pariatur natus veniam exercitationem! Nihil, eius! Fugit ratione consequatur aut quos dolorem facilis ipsam doloribus vel laborum incidunt qui in corrupti, at accusamus, consequuntur illo labore ipsum ad. Quidem sit iusto omnis aperiam dolores molestiae suscipit dicta iure ea amet iste rem non libero eos officiis architecto facilis, sint ratione magni harum corrupti voluptatum eum similique eius? Error, at magnam nesciunt a quos sequi dicta tenetur maiores minima ex iusto consectetur distinctio qui perspiciatis quo veritatis laboriosam facilis, recusandae, neque quibusdam doloremque voluptate. Consequuntur expedita commodi laboriosam ab ex atque ea libero perferendis, ullam earum omnis ad perspiciatis odit architecto voluptas eius consequatur officia sequi. Voluptatem culpa corporis nisi sint deserunt quia tenetur ratione alias debitis ullam voluptatum totam ipsam perferendis fuga fugiat rem, numquam minus unde dicta beatae. Ratione?</p>
-{% endblock content %}
+
+<div class="container">
+
+
+     <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </div>
+        </form>
+
+     </div>
+     {% endblock content %}
